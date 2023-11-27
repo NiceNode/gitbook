@@ -71,6 +71,9 @@ const config: Config = {
       style: 'dark',
       copyright: ` © Copyright ${new Date().getFullYear()} by NiceNode.`,
     },
+    colorMode : {
+      defaultMode: 'dark'
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
