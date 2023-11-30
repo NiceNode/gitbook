@@ -3,6 +3,7 @@
 
 # Production
 /build
+docs/.vitepress/dist
 
 # Generated files
 .docusaurus
