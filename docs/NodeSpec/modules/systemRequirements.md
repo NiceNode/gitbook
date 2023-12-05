@@ -1,4 +1,4 @@
-[nice-node](../README.md) / [Modules](../modules.md) / systemRequirements
+[nice-node](../index.md) / [Modules](../modules.md) / systemRequirements
 
 # Module: systemRequirements
 

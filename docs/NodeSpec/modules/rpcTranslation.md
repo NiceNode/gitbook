@@ -1,4 +1,4 @@
-[nice-node](../README.md) / [Modules](../modules.md) / rpcTranslation
+[nice-node](../index.md) / [Modules](../modules.md) / rpcTranslation
 
 # Module: rpcTranslation
 

@@ -1,4 +1,4 @@
-[nice-node](../README.md) / [Modules](../modules.md) / node
+[nice-node](../index.md) / [Modules](../modules.md) / node
 
 # Module: node
 

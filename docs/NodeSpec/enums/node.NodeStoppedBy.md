@@ -1,4 +1,4 @@
-[nice-node](../README.md) / [Modules](../modules.md) / [node](../modules/node.md) / NodeStoppedBy
+[nice-node](../index.md) / [Modules](../modules.md) / [node](../modules/node.md) / NodeStoppedBy
 
 # Enumeration: NodeStoppedBy
 

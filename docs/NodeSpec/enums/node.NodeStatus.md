@@ -1,4 +1,4 @@
-[nice-node](../README.md) / [Modules](../modules.md) / [node](../modules/node.md) / NodeStatus
+[nice-node](../index.md) / [Modules](../modules.md) / [node](../modules/node.md) / NodeStatus
 
 # Enumeration: NodeStatus
 

@@ -1,4 +1,4 @@
-[nice-node](../README.md) / [Modules](../modules.md) / nodePackageConfig
+[nice-node](../index.md) / [Modules](../modules.md) / nodePackageConfig
 
 # Module: nodePackageConfig
 
