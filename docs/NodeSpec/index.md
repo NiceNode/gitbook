@@ -198,7 +198,9 @@ The top level specificiation
 
 The bottom level specificiation
 
-> 🚧 Ignore references to binary (not currently supported)
+::: info
+Ignore references to binary (not currently supported)
+:::
 
 ```json
 {

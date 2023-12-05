@@ -3,23 +3,19 @@
 layout: home
 
 hero:
-  name: "NiceNode docs"
-  text: "NiceNode documentation and guides"
-  tagline: My great project tagline
+  name: NiceNode documentation and guides
+  tagline: Run a node at home, the easy way
+  image:
+    light: /public/img/NiceNodeApplicationDark.png
+    dark: /public/img/NiceNodeApplicationDark.png
+    alt: NiceNode application screenshot
+    width: 600
+    height: 600
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Guides
+      link: /guides/
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Node Spec Examples
+      link: /NodeSpec/
 ---
-

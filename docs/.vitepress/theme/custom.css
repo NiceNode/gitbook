@@ -4,3 +4,7 @@
     /* purple500 */
     /* --vp-c-brand-2: #8267EF; */
   }
+
+.VPHero .VPImage {
+  max-width: 540px;
+}
