@@ -1,4 +1,4 @@
-[nice-node](../index.md) / [Modules](../modules.md) / systemRequirements
+[Node Spec examples](../index.md) / [Modules](../modules.md) / systemRequirements
 
 # Module: systemRequirements
 
@@ -21,16 +21,16 @@
 
 #### Type declaration
 
-| Name           | Type     |
-| :------------- | :------- |
-| `cores?`       | `number` |
+| Name | Type |
+| :------ | :------ |
+| `cores?` | `number` |
 | `minSpeedGHz?` | `number` |
 
 #### Defined in
 
-[systemRequirements.ts:1](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/systemRequirements.ts#L1)
+[systemRequirements.ts:1](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L1)
 
----
+___
 
 ### DockerRequirements
 
@@ -38,16 +38,16 @@
 
 #### Type declaration
 
-| Name          | Type      |
-| :------------ | :-------- |
-| `minVersion?` | `string`  |
-| `required?`   | `boolean` |
+| Name | Type |
+| :------ | :------ |
+| `minVersion?` | `string` |
+| `required?` | `boolean` |
 
 #### Defined in
 
-[systemRequirements.ts:23](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/systemRequirements.ts#L23)
+[systemRequirements.ts:23](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L23)
 
----
+___
 
 ### InternetRequirements
 
@@ -55,17 +55,17 @@
 
 #### Type declaration
 
-| Name                    | Type      |
-| :---------------------- | :-------- |
-| `minDownloadSpeedMbps?` | `number`  |
-| `minUploadSpeedMbps?`   | `number`  |
+| Name | Type |
+| :------ | :------ |
+| `minDownloadSpeedMbps?` | `number` |
+| `minUploadSpeedMbps?` | `number` |
 | `noDataCapRecommended?` | `boolean` |
 
 #### Defined in
 
-[systemRequirements.ts:15](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/systemRequirements.ts#L15)
+[systemRequirements.ts:15](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L15)
 
----
+___
 
 ### MemoryRequirements
 
@@ -73,16 +73,16 @@
 
 #### Type declaration
 
-| Name           | Type     |
-| :------------- | :------- |
-| `minSizeGBs?`  | `number` |
+| Name | Type |
+| :------ | :------ |
+| `minSizeGBs?` | `number` |
 | `minSpeedGHz?` | `number` |
 
 #### Defined in
 
-[systemRequirements.ts:5](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/systemRequirements.ts#L5)
+[systemRequirements.ts:5](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L5)
 
----
+___
 
 ### StorageRequirements
 
@@ -90,17 +90,17 @@
 
 #### Type declaration
 
-| Name                 | Type      |
-| :------------------- | :-------- |
-| `minSizeGBs?`        | `number`  |
-| `minWriteSpeedMBps?` | `number`  |
-| `ssdRequired?`       | `boolean` |
+| Name | Type |
+| :------ | :------ |
+| `minSizeGBs?` | `number` |
+| `minWriteSpeedMBps?` | `number` |
+| `ssdRequired?` | `boolean` |
 
 #### Defined in
 
-[systemRequirements.ts:9](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/systemRequirements.ts#L9)
+[systemRequirements.ts:9](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L9)
 
----
+___
 
 ### SystemRequirements
 
@@ -108,16 +108,16 @@
 
 #### Type declaration
 
-| Name                | Type                                                                 |
-| :------------------ | :------------------------------------------------------------------- |
-| `cpu?`              | [`CpuRequirements`](systemRequirements.md#cpurequirements)           |
-| `description?`      | `string`                                                             |
-| `docker?`           | [`DockerRequirements`](systemRequirements.md#dockerrequirements)     |
-| `documentationUrl?` | `string`                                                             |
-| `internet?`         | [`InternetRequirements`](systemRequirements.md#internetrequirements) |
-| `memory?`           | [`MemoryRequirements`](systemRequirements.md#memoryrequirements)     |
-| `storage?`          | [`StorageRequirements`](systemRequirements.md#storagerequirements)   |
+| Name | Type |
+| :------ | :------ |
+| `cpu?` | [`CpuRequirements`](systemRequirements.md#cpurequirements) |
+| `description?` | `string` |
+| `docker?` | [`DockerRequirements`](systemRequirements.md#dockerrequirements) |
+| `documentationUrl?` | `string` |
+| `internet?` | [`InternetRequirements`](systemRequirements.md#internetrequirements) |
+| `memory?` | [`MemoryRequirements`](systemRequirements.md#memoryrequirements) |
+| `storage?` | [`StorageRequirements`](systemRequirements.md#storagerequirements) |
 
 #### Defined in
 
-[systemRequirements.ts:28](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/systemRequirements.ts#L28)
+[systemRequirements.ts:28](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L28)

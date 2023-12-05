@@ -1,6 +1,6 @@
-[Node Spec Examples](index.md) / Modules
+[Node Spec examples](index.md) / Modules
 
-# Node Spec Examples
+# Node Spec examples
 
 ## Table of contents
 

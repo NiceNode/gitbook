@@ -1,4 +1,4 @@
-[nice-node](../index.md) / [Modules](../modules.md) / node
+[Node Spec examples](../index.md) / [Modules](../modules.md) / node
 
 # Module: node
 
@@ -38,16 +38,16 @@
 
 #### Type declaration
 
-| Name | Type     |
-| :--- | :------- |
-| `x`  | `number` |
-| `y`  | `number` |
+| Name | Type |
+| :------ | :------ |
+| `x` | `number` |
+| `y` | `number` |
 
 #### Defined in
 
-[node.ts:44](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L44)
+[node.ts:44](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L44)
 
----
+___
 
 ### MetricMap
 
@@ -55,9 +55,9 @@
 
 #### Defined in
 
-[node.ts:48](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L48)
+[node.ts:48](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L48)
 
----
+___
 
 ### NodeConfig
 
@@ -65,16 +65,16 @@
 
 #### Type declaration
 
-| Name              | Type                                               |
-| :---------------- | :------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `configValuesMap` | [`ConfigValuesMap`](nodeConfig.md#configvaluesmap) |
-| `executionType?`  | [`ExecutionTypes`](nodeSpec.md#executiontypes)     |
+| `executionType?` | [`ExecutionTypes`](nodeSpec.md#executiontypes) |
 
 #### Defined in
 
-[node.ts:39](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L39)
+[node.ts:39](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L39)
 
----
+___
 
 ### NodeId
 
@@ -82,9 +82,9 @@
 
 #### Defined in
 
-[node.ts:10](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L10)
+[node.ts:10](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L10)
 
----
+___
 
 ### NodePackage
 
@@ -92,24 +92,24 @@
 
 #### Type declaration
 
-| Name           | Type                                                               |
-| :------------- | :----------------------------------------------------------------- |
-| `config`       | [`NodeConfig`](node.md#nodeconfig)                                 |
-| `id`           | [`NodeId`](node.md#nodeid)                                         |
-| `lastStarted?` | `string`                                                           |
-| `lastStopped?` | `string`                                                           |
-| `nodes`        | [`default`](node.md#default)[]                                     |
-| `runtime`      | [`NodeRuntime`](node.md#noderuntime)                               |
-| `services`     | [`NodeService`](node.md#nodeservice)[]                             |
-| `spec`         | [`NodePackageSpecification`](nodeSpec.md#nodepackagespecification) |
-| `status`       | [`NodeStatus`](../enums/node.NodeStatus.md)                        |
-| `stoppedBy?`   | [`NodeStoppedBy`](../enums/node.NodeStoppedBy.md)                  |
+| Name | Type |
+| :------ | :------ |
+| `config` | [`NodeConfig`](node.md#nodeconfig) |
+| `id` | [`NodeId`](node.md#nodeid) |
+| `lastStarted?` | `string` |
+| `lastStopped?` | `string` |
+| `nodes` | [`default`](node.md#default)[] |
+| `runtime` | [`NodeRuntime`](node.md#noderuntime) |
+| `services` | [`NodeService`](node.md#nodeservice)[] |
+| `spec` | [`NodePackageSpecification`](nodeSpec.md#nodepackagespecification) |
+| `status` | [`NodeStatus`](../enums/node.NodeStatus.md) |
+| `stoppedBy?` | [`NodeStoppedBy`](../enums/node.NodeStoppedBy.md) |
 
 #### Defined in
 
-[node.ts:86](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L86)
+[node.ts:86](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L86)
 
----
+___
 
 ### NodePackageMap
 
@@ -117,9 +117,9 @@
 
 #### Defined in
 
-[node.ts:98](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L98)
+[node.ts:98](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L98)
 
----
+___
 
 ### NodeRuntime
 
@@ -127,23 +127,23 @@
 
 #### Type declaration
 
-| Name                | Type                                                                                                                                                                                                        |
-| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `build?`            | `string`                                                                                                                                                                                                    |
-| `dataDir`           | `string`                                                                                                                                                                                                    |
-| `initialized?`      | `boolean`                                                                                                                                                                                                   |
-| `processIds?`       | `string`[]                                                                                                                                                                                                  |
-| `usage`             | \{ `cpuPercent`: [`MetricData`](node.md#metricdata)[] \| [] ; `diskGBs`: [`MetricData`](node.md#metricdata)[] \| [] ; `memoryBytes`: [`MetricData`](node.md#metricdata)[] \| [] ; `syncedBlock`: `number` } |
-| `usage.cpuPercent`  | [`MetricData`](node.md#metricdata)[] \| []                                                                                                                                                                  |
-| `usage.diskGBs`     | [`MetricData`](node.md#metricdata)[] \| []                                                                                                                                                                  |
-| `usage.memoryBytes` | [`MetricData`](node.md#metricdata)[] \| []                                                                                                                                                                  |
-| `usage.syncedBlock` | `number`                                                                                                                                                                                                    |
+| Name | Type |
+| :------ | :------ |
+| `build?` | `string` |
+| `dataDir` | `string` |
+| `initialized?` | `boolean` |
+| `processIds?` | `string`[] |
+| `usage` | \{ `cpuPercent`: [`MetricData`](node.md#metricdata)[] \| [] ; `diskGBs`: [`MetricData`](node.md#metricdata)[] \| [] ; `memoryBytes`: [`MetricData`](node.md#metricdata)[] \| [] ; `syncedBlock`: `number`  } |
+| `usage.cpuPercent` | [`MetricData`](node.md#metricdata)[] \| [] |
+| `usage.diskGBs` | [`MetricData`](node.md#metricdata)[] \| [] |
+| `usage.memoryBytes` | [`MetricData`](node.md#metricdata)[] \| [] |
+| `usage.syncedBlock` | `number` |
 
 #### Defined in
 
-[node.ts:52](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L52)
+[node.ts:52](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L52)
 
----
+___
 
 ### NodeService
 
@@ -151,17 +151,17 @@
 
 #### Type declaration
 
-| Name          | Type                         |
-| :------------ | :--------------------------- |
-| `node`        | [`default`](node.md#default) |
-| `serviceId`   | `string`                     |
-| `serviceName` | `string`                     |
+| Name | Type |
+| :------ | :------ |
+| `node` | [`default`](node.md#default) |
+| `serviceId` | `string` |
+| `serviceName` | `string` |
 
 #### Defined in
 
-[node.ts:81](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L81)
+[node.ts:81](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L81)
 
----
+___
 
 ### UserNodePackages
 
@@ -169,16 +169,16 @@
 
 #### Type declaration
 
-| Name      | Type                                       |
-| :-------- | :----------------------------------------- |
-| `nodeIds` | `string`[]                                 |
-| `nodes`   | [`NodePackageMap`](node.md#nodepackagemap) |
+| Name | Type |
+| :------ | :------ |
+| `nodeIds` | `string`[] |
+| `nodes` | [`NodePackageMap`](node.md#nodepackagemap) |
 
 #### Defined in
 
-[node.ts:100](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L100)
+[node.ts:100](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L100)
 
----
+___
 
 ### UserNodes
 
@@ -186,16 +186,16 @@
 
 #### Type declaration
 
-| Name      | Type       |
-| :-------- | :--------- |
+| Name | Type |
+| :------ | :------ |
 | `nodeIds` | `string`[] |
-| `nodes`   | `NodeMap`  |
+| `nodes` | `NodeMap` |
 
 #### Defined in
 
-[node.ts:77](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L77)
+[node.ts:77](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L77)
 
----
+___
 
 ### default
 
@@ -203,20 +203,20 @@
 
 #### Type declaration
 
-| Name           | Type                                                 |
-| :------------- | :--------------------------------------------------- |
-| `config`       | [`NodeConfig`](node.md#nodeconfig)                   |
-| `id`           | [`NodeId`](node.md#nodeid)                           |
-| `lastStarted?` | `string`                                             |
-| `lastStopped?` | `string`                                             |
-| `runtime`      | [`NodeRuntime`](node.md#noderuntime)                 |
-| `spec`         | [`NodeSpecification`](nodeSpec.md#nodespecification) |
-| `status`       | [`NodeStatus`](../enums/node.NodeStatus.md)          |
-| `stoppedBy?`   | [`NodeStoppedBy`](../enums/node.NodeStoppedBy.md)    |
+| Name | Type |
+| :------ | :------ |
+| `config` | [`NodeConfig`](node.md#nodeconfig) |
+| `id` | [`NodeId`](node.md#nodeid) |
+| `lastStarted?` | `string` |
+| `lastStopped?` | `string` |
+| `runtime` | [`NodeRuntime`](node.md#noderuntime) |
+| `spec` | [`NodeSpecification`](nodeSpec.md#nodespecification) |
+| `status` | [`NodeStatus`](../enums/node.NodeStatus.md) |
+| `stoppedBy?` | [`NodeStoppedBy`](../enums/node.NodeStoppedBy.md) |
 
 #### Defined in
 
-[node.ts:66](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L66)
+[node.ts:66](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L66)
 
 ## Functions
 
@@ -226,12 +226,12 @@
 
 #### Parameters
 
-| Name                           | Type                                                 |
-| :----------------------------- | :--------------------------------------------------- |
-| `input`                        | `Object`                                             |
-| `input.initialConfigFromUser?` | [`ConfigValuesMap`](nodeConfig.md#configvaluesmap)   |
-| `input.runtime`                | [`NodeRuntime`](node.md#noderuntime)                 |
-| `input.spec`                   | [`NodeSpecification`](nodeSpec.md#nodespecification) |
+| Name | Type |
+| :------ | :------ |
+| `input` | `Object` |
+| `input.initialConfigFromUser?` | [`ConfigValuesMap`](nodeConfig.md#configvaluesmap) |
+| `input.runtime` | [`NodeRuntime`](node.md#noderuntime) |
+| `input.spec` | [`NodeSpecification`](nodeSpec.md#nodespecification) |
 
 #### Returns
 
@@ -239,9 +239,9 @@
 
 #### Defined in
 
-[node.ts:125](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L125)
+[node.ts:125](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L125)
 
----
+___
 
 ### createNodePackage
 
@@ -249,12 +249,12 @@
 
 #### Parameters
 
-| Name                           | Type                                                               |
-| :----------------------------- | :----------------------------------------------------------------- |
-| `input`                        | `Object`                                                           |
-| `input.initialConfigFromUser?` | [`ConfigValuesMap`](nodeConfig.md#configvaluesmap)                 |
-| `input.runtime`                | [`NodeRuntime`](node.md#noderuntime)                               |
-| `input.spec`                   | [`NodePackageSpecification`](nodeSpec.md#nodepackagespecification) |
+| Name | Type |
+| :------ | :------ |
+| `input` | `Object` |
+| `input.initialConfigFromUser?` | [`ConfigValuesMap`](nodeConfig.md#configvaluesmap) |
+| `input.runtime` | [`NodeRuntime`](node.md#noderuntime) |
+| `input.spec` | [`NodePackageSpecification`](nodeSpec.md#nodepackagespecification) |
 
 #### Returns
 
@@ -262,9 +262,9 @@
 
 #### Defined in
 
-[node.ts:158](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L158)
+[node.ts:158](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L158)
 
----
+___
 
 ### isBinaryNode
 
@@ -272,8 +272,8 @@
 
 #### Parameters
 
-| Name   | Type                         |
-| :----- | :--------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `node` | [`default`](node.md#default) |
 
 #### Returns
@@ -282,9 +282,9 @@
 
 #### Defined in
 
-[node.ts:115](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L115)
+[node.ts:115](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L115)
 
----
+___
 
 ### isDockerNode
 
@@ -292,8 +292,8 @@
 
 #### Parameters
 
-| Name   | Type                         |
-| :----- | :--------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `node` | [`default`](node.md#default) |
 
 #### Returns
@@ -302,4 +302,4 @@
 
 #### Defined in
 
-[node.ts:105](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L105)
+[node.ts:105](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L105)

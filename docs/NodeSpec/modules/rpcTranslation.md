@@ -1,4 +1,4 @@
-[nice-node](../index.md) / [Modules](../modules.md) / rpcTranslation
+[Node Spec examples](../index.md) / [Modules](../modules.md) / rpcTranslation
 
 # Module: rpcTranslation
 
@@ -13,13 +13,13 @@
 
 ### NiceNodeRpcTranslation
 
-Ƭ **NiceNodeRpcTranslation**: `"eth-l1"` \| `"eth-l1-beacon"` \| `"eth-l2-op-stack"` \| `"eth-l2-starknet"` \| `"eth-l2-arbitrum"` \| `"eth-l2-consensus"` \| `"farcaster-l1"`
+Ƭ **NiceNodeRpcTranslation**: ``"eth-l1"`` \| ``"eth-l1-beacon"`` \| ``"eth-l2-op-stack"`` \| ``"eth-l2-starknet"`` \| ``"eth-l2-arbitrum"`` \| ``"eth-l2-consensus"`` \| ``"farcaster-l1"``
 
 #### Defined in
 
-[rpcTranslation.ts:21](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/rpcTranslation.ts#L21)
+[rpcTranslation.ts:21](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/rpcTranslation.ts#L21)
 
----
+___
 
 ### RpcTranslation
 
@@ -27,15 +27,15 @@
 
 #### Type declaration
 
-| Name                | Type                                                                                                           |
-| :------------------ | :------------------------------------------------------------------------------------------------------------- |
-| `request`           | \{ `message?`: `any` ; `method`: `"GET"` \| `"POST"` ; `protocol?`: `"http"` \| `"ws"` ; `urlPath`: `string` } |
-| `request.message?`  | `any`                                                                                                          |
-| `request.method`    | `"GET"` \| `"POST"`                                                                                            |
-| `request.protocol?` | `"http"` \| `"ws"`                                                                                             |
-| `request.urlPath`   | `string`                                                                                                       |
-| `response`          | \{ `path`: `string` ; `value`: `string` }[]                                                                    |
+| Name | Type |
+| :------ | :------ |
+| `request` | \{ `message?`: `any` ; `method`: ``"GET"`` \| ``"POST"`` ; `protocol?`: ``"http"`` \| ``"ws"`` ; `urlPath`: `string`  } |
+| `request.message?` | `any` |
+| `request.method` | ``"GET"`` \| ``"POST"`` |
+| `request.protocol?` | ``"http"`` \| ``"ws"`` |
+| `request.urlPath` | `string` |
+| `response` | \{ `path`: `string` ; `value`: `string`  }[] |
 
 #### Defined in
 
-[rpcTranslation.ts:3](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/rpcTranslation.ts#L3)
+[rpcTranslation.ts:3](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/rpcTranslation.ts#L3)

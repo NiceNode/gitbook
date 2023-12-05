@@ -1,3 +1,5 @@
+Node Spec examples / [Modules](modules.md)
+
 # Node Spec Examples
 
 [Typescript type definitions](modules.md)
