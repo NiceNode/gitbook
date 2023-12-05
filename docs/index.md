@@ -6,8 +6,8 @@ hero:
   name: NiceNode documentation and guides
   tagline: Run a node at home, the easy way
   image:
-    light: /public/img/NiceNodeApplicationDark.png
-    dark: /public/img/NiceNodeApplicationDark.png
+    light: img/NiceNodeApplicationDark.png
+    dark: img/NiceNodeApplicationDark.png
     alt: NiceNode application screenshot
     width: 600
     height: 600
