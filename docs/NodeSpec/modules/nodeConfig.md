@@ -35,9 +35,9 @@
 
 #### Defined in
 
-[nodeConfig.ts:58](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L58)
+[nodeConfig.ts:58](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L58)
 
-___
+---
 
 ### ConfigTranslation
 
@@ -45,38 +45,38 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `addNodeFlow?` | [`ConfigTranslationAddNodeFlow`](nodeConfig.md#configtranslationaddnodeflow) |
-| `category?` | `string` |
-| `cliConfigPrefix?` | `string` \| `string`[] |
-| `defaultValue?` | [`ConfigValue`](nodeConfig.md#configvalue) |
-| `displayName` | `string` |
-| `documentation?` | `string` |
-| `hideFromUserAfterStart?` | `boolean` |
-| `infoDescription?` | `string` |
-| `initCommandConfig?` | `boolean` |
-| `niceNodeDefaultValue?` | [`ConfigValue`](nodeConfig.md#configvalue) |
-| `uiControl` | [`ConfigTranslationControl`](nodeConfig.md#configtranslationcontrol) |
-| `valuesJoinStr?` | `string` |
-| `valuesWrapChar?` | `string` |
-| `warning?` | `string` |
+| Name                      | Type                                                                         |
+| :------------------------ | :--------------------------------------------------------------------------- |
+| `addNodeFlow?`            | [`ConfigTranslationAddNodeFlow`](nodeConfig.md#configtranslationaddnodeflow) |
+| `category?`               | `string`                                                                     |
+| `cliConfigPrefix?`        | `string` \| `string`[]                                                       |
+| `defaultValue?`           | [`ConfigValue`](nodeConfig.md#configvalue)                                   |
+| `displayName`             | `string`                                                                     |
+| `documentation?`          | `string`                                                                     |
+| `hideFromUserAfterStart?` | `boolean`                                                                    |
+| `infoDescription?`        | `string`                                                                     |
+| `initCommandConfig?`      | `boolean`                                                                    |
+| `niceNodeDefaultValue?`   | [`ConfigValue`](nodeConfig.md#configvalue)                                   |
+| `uiControl`               | [`ConfigTranslationControl`](nodeConfig.md#configtranslationcontrol)         |
+| `valuesJoinStr?`          | `string`                                                                     |
+| `valuesWrapChar?`         | `string`                                                                     |
+| `warning?`                | `string`                                                                     |
 
 #### Defined in
 
-[nodeConfig.ts:41](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L41)
+[nodeConfig.ts:41](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L41)
 
-___
+---
 
 ### ConfigTranslationAddNodeFlow
 
-Ƭ **ConfigTranslationAddNodeFlow**: ``"required"`` \| ``"advanced"``
+Ƭ **ConfigTranslationAddNodeFlow**: `"required"` \| `"advanced"`
 
 #### Defined in
 
-[nodeConfig.ts:39](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L39)
+[nodeConfig.ts:39](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L39)
 
-___
+---
 
 ### ConfigTranslationControl
 
@@ -84,9 +84,9 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:31](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L31)
+[nodeConfig.ts:31](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L31)
 
-___
+---
 
 ### ConfigTranslationMap
 
@@ -94,9 +94,9 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:60](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L60)
+[nodeConfig.ts:60](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L60)
 
-___
+---
 
 ### ConfigValue
 
@@ -104,9 +104,9 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:37](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L37)
+[nodeConfig.ts:37](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L37)
 
-___
+---
 
 ### ConfigValuesMap
 
@@ -114,9 +114,9 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:59](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L59)
+[nodeConfig.ts:59](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L59)
 
-___
+---
 
 ### FilePathControl
 
@@ -124,16 +124,16 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
+| Name              | Type                                                    |
+| :---------------- | :------------------------------------------------------ |
 | `serviceConfigs?` | [`ServiceConfigs`](nodePackageConfig.md#serviceconfigs) |
-| `type` | ``"filePath"`` |
+| `type`            | `"filePath"`                                            |
 
 #### Defined in
 
-[nodeConfig.ts:4](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L4)
+[nodeConfig.ts:4](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L4)
 
-___
+---
 
 ### MultiSelectControl
 
@@ -141,16 +141,16 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
+| Name                  | Type                                                     |
+| :-------------------- | :------------------------------------------------------- |
 | `controlTranslations` | [`SelectTranslation`](nodeConfig.md#selecttranslation)[] |
-| `type` | ``"select/multiple"`` |
+| `type`                | `"select/multiple"`                                      |
 
 #### Defined in
 
-[nodeConfig.ts:27](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L27)
+[nodeConfig.ts:27](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L27)
 
-___
+---
 
 ### SelectControl
 
@@ -158,16 +158,16 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
+| Name                  | Type                                                     |
+| :-------------------- | :------------------------------------------------------- |
 | `controlTranslations` | [`SelectTranslation`](nodeConfig.md#selecttranslation)[] |
-| `type` | ``"select/single"`` |
+| `type`                | `"select/single"`                                        |
 
 #### Defined in
 
-[nodeConfig.ts:23](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L23)
+[nodeConfig.ts:23](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L23)
 
-___
+---
 
 ### SelectTranslation
 
@@ -175,18 +175,18 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `config?` | `string` |
-| `info?` | `string` |
+| Name              | Type                                                    |
+| :---------------- | :------------------------------------------------------ |
+| `config?`         | `string`                                                |
+| `info?`           | `string`                                                |
 | `serviceConfigs?` | [`ServiceConfigs`](nodePackageConfig.md#serviceconfigs) |
-| `value` | `string` |
+| `value`           | `string`                                                |
 
 #### Defined in
 
-[nodeConfig.ts:14](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L14)
+[nodeConfig.ts:14](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L14)
 
-___
+---
 
 ### TextControl
 
@@ -194,24 +194,24 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
+| Name              | Type                                                    |
+| :---------------- | :------------------------------------------------------ |
 | `serviceConfigs?` | [`ServiceConfigs`](nodePackageConfig.md#serviceconfigs) |
-| `type` | ``"text"`` |
+| `type`            | `"text"`                                                |
 
 #### Defined in
 
-[nodeConfig.ts:9](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L9)
+[nodeConfig.ts:9](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L9)
 
 ## Variables
 
 ### FilePathControlType
 
-• `Const` **FilePathControlType**: ``"filePath"``
+• `Const` **FilePathControlType**: `"filePath"`
 
 #### Defined in
 
-[nodeConfig.ts:3](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L3)
+[nodeConfig.ts:3](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L3)
 
 ## Functions
 
@@ -224,12 +224,12 @@ using the dataDir key because the dataDir key is used for the docker volume moun
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `param0` | `Object` |
+| Name                           | Type                                                         |
+| :----------------------------- | :----------------------------------------------------------- |
+| `param0`                       | `Object`                                                     |
 | `param0.configTranslationMap?` | [`ConfigTranslationMap`](nodeConfig.md#configtranslationmap) |
-| `param0.configValuesMap` | [`ConfigValuesMap`](nodeConfig.md#configvaluesmap) |
-| `param0.excludeConfigKeys?` | `string`[] |
+| `param0.configValuesMap`       | [`ConfigValuesMap`](nodeConfig.md#configvaluesmap)           |
+| `param0.excludeConfigKeys?`    | `string`[]                                                   |
 
 #### Returns
 
@@ -237,4 +237,4 @@ using the dataDir key because the dataDir key is used for the docker volume moun
 
 #### Defined in
 
-[nodeConfig.ts:88](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L88)
+[nodeConfig.ts:88](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodeConfig.ts#L88)

@@ -15,29 +15,29 @@
 Ƭ **ServiceConfigs**: `Object`
 
 "serviceConfigs": {
-   "services": [
-     {
-       "serviceId": "executionClient",
-       "configValues": {
-         "network": "Mainnet",
-         "genesisFile": ""
-       }
-     },
-     {
-       "serviceId": "consensusClient",
-       "configValues": {
-         "network": "Mainnet"
-       }
-     }
-   ]
- }
+"services": [
+{
+"serviceId": "executionClient",
+"configValues": {
+"network": "Mainnet",
+"genesisFile": ""
+}
+},
+{
+"serviceId": "consensusClient",
+"configValues": {
+"network": "Mainnet"
+}
+}
+]
+}
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `services` | \{ `configKey?`: [`ConfigKey`](nodeConfig.md#configkey) ; `configValues?`: [`ConfigValuesMap`](nodeConfig.md#configvaluesmap) ; `serviceId`: `string`  }[] |
+| Name       | Type                                                                                                                                                      |
+| :--------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `services` | \{ `configKey?`: [`ConfigKey`](nodeConfig.md#configkey) ; `configValues?`: [`ConfigValuesMap`](nodeConfig.md#configvaluesmap) ; `serviceId`: `string` }[] |
 
 #### Defined in
 
-[nodePackageConfig.ts:22](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/nodePackageConfig.ts#L22)
+[nodePackageConfig.ts:22](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/nodePackageConfig.ts#L22)

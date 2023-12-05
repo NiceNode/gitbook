@@ -16,28 +16,28 @@
 
 ### podmanUpdate
 
-• **podmanUpdate** = ``"podmanUpdate"``
+• **podmanUpdate** = `"podmanUpdate"`
 
 #### Defined in
 
-[node.ts:36](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L36)
+[node.ts:36](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L36)
 
-___
+---
 
 ### shutdown
 
-• **shutdown** = ``"shutdown"``
+• **shutdown** = `"shutdown"`
 
 #### Defined in
 
-[node.ts:35](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L35)
+[node.ts:35](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L35)
 
-___
+---
 
 ### user
 
-• **user** = ``"user"``
+• **user** = `"user"`
 
 #### Defined in
 
-[node.ts:34](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L34)
+[node.ts:34](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L34)

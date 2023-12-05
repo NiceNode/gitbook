@@ -31,178 +31,178 @@
 
 ### checkingForUpdates
 
-• **checkingForUpdates** = ``"checkingForUpdates"``
+• **checkingForUpdates** = `"checkingForUpdates"`
 
 #### Defined in
 
-[node.ts:15](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L15)
+[node.ts:15](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L15)
 
-___
+---
 
 ### created
 
-• **created** = ``"created"``
+• **created** = `"created"`
 
 #### Defined in
 
-[node.ts:13](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L13)
+[node.ts:13](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L13)
 
-___
+---
 
 ### downloaded
 
-• **downloaded** = ``"downloaded"``
+• **downloaded** = `"downloaded"`
 
 #### Defined in
 
-[node.ts:17](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L17)
+[node.ts:17](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L17)
 
-___
+---
 
 ### downloading
 
-• **downloading** = ``"downloading"``
+• **downloading** = `"downloading"`
 
 #### Defined in
 
-[node.ts:16](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L16)
+[node.ts:16](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L16)
 
-___
+---
 
 ### error
 
-• **error** = ``"error"``
+• **error** = `"error"`
 
 #### Defined in
 
-[node.ts:29](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L29)
+[node.ts:29](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L29)
 
-___
+---
 
 ### errorDownloading
 
-• **errorDownloading** = ``"error downloading"``
+• **errorDownloading** = `"error downloading"`
 
 #### Defined in
 
-[node.ts:18](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L18)
+[node.ts:18](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L18)
 
-___
+---
 
 ### errorRunning
 
-• **errorRunning** = ``"error running"``
+• **errorRunning** = `"error running"`
 
 #### Defined in
 
-[node.ts:25](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L25)
+[node.ts:25](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L25)
 
-___
+---
 
 ### errorStarting
 
-• **errorStarting** = ``"error starting"``
+• **errorStarting** = `"error starting"`
 
 #### Defined in
 
-[node.ts:26](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L26)
+[node.ts:26](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L26)
 
-___
+---
 
 ### errorStopping
 
-• **errorStopping** = ``"error stopping"``
+• **errorStopping** = `"error stopping"`
 
 #### Defined in
 
-[node.ts:27](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L27)
+[node.ts:27](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L27)
 
-___
+---
 
 ### extracting
 
-• **extracting** = ``"extracting"``
+• **extracting** = `"extracting"`
 
 #### Defined in
 
-[node.ts:19](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L19)
+[node.ts:19](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L19)
 
-___
+---
 
 ### initializing
 
-• **initializing** = ``"initializing"``
+• **initializing** = `"initializing"`
 
 #### Defined in
 
-[node.ts:14](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L14)
+[node.ts:14](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L14)
 
-___
+---
 
 ### readyToStart
 
-• **readyToStart** = ``"ready to start"``
+• **readyToStart** = `"ready to start"`
 
 #### Defined in
 
-[node.ts:20](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L20)
+[node.ts:20](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L20)
 
-___
+---
 
 ### running
 
-• **running** = ``"running"``
+• **running** = `"running"`
 
 #### Defined in
 
-[node.ts:22](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L22)
+[node.ts:22](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L22)
 
-___
+---
 
 ### starting
 
-• **starting** = ``"starting"``
+• **starting** = `"starting"`
 
 #### Defined in
 
-[node.ts:21](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L21)
+[node.ts:21](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L21)
 
-___
+---
 
 ### stopped
 
-• **stopped** = ``"stopped"``
+• **stopped** = `"stopped"`
 
 #### Defined in
 
-[node.ts:24](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L24)
+[node.ts:24](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L24)
 
-___
+---
 
 ### stopping
 
-• **stopping** = ``"stopping"``
+• **stopping** = `"stopping"`
 
 #### Defined in
 
-[node.ts:23](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L23)
+[node.ts:23](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L23)
 
-___
+---
 
 ### unknown
 
-• **unknown** = ``"unknown"``
+• **unknown** = `"unknown"`
 
 #### Defined in
 
-[node.ts:28](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L28)
+[node.ts:28](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L28)
 
-___
+---
 
 ### updating
 
-• **updating** = ``"updating"``
+• **updating** = `"updating"`
 
 #### Defined in
 
-[node.ts:30](https://github.com/jgresham/nice-node/blob/2e05c26b/src/common/node.ts#L30)
+[node.ts:30](https://github.com/NiceNode/nice-node/blob/2e05c26b/src/common/node.ts#L30)
