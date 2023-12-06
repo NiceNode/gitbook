@@ -4,12 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "NiceNode docs",
   description: "NiceNode documentation and guides",
-  head: [['link', { rel: 'icon', href: 'img/favicon.png' }]],
+  head: [['link', { rel: 'icon', href: '/img/favicon.png' }]],
   // outDir: '../build',
   themeConfig: {
     logo: {
-      light: 'img/logo-light.png', 
-      dark: 'img/logo-dark.png', 
+      light: '/img/logo-light.png', 
+      dark: '/img/logo-dark.png', 
       alt: 'NiceNode logo', 
       search: {
         provider: 'local'
