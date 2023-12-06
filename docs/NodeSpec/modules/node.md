@@ -27,6 +27,7 @@
 
 - [createNode](node.md#createnode)
 - [createNodePackage](node.md#createnodepackage)
+- [getContainerName](node.md#getcontainername)
 - [isBinaryNode](node.md#isbinarynode)
 - [isDockerNode](node.md#isdockernode)
 
@@ -45,7 +46,7 @@
 
 #### Defined in
 
-[node.ts:44](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L44)
+[node.ts:44](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L44)
 
 ___
 
@@ -55,7 +56,7 @@ ___
 
 #### Defined in
 
-[node.ts:48](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L48)
+[node.ts:48](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L48)
 
 ___
 
@@ -72,7 +73,7 @@ ___
 
 #### Defined in
 
-[node.ts:39](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L39)
+[node.ts:39](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L39)
 
 ___
 
@@ -82,7 +83,7 @@ ___
 
 #### Defined in
 
-[node.ts:10](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L10)
+[node.ts:10](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L10)
 
 ___
 
@@ -92,22 +93,23 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `config` | [`NodeConfig`](node.md#nodeconfig) |
-| `id` | [`NodeId`](node.md#nodeid) |
-| `lastStarted?` | `string` |
-| `lastStopped?` | `string` |
-| `nodes` | [`default`](node.md#default)[] |
-| `runtime` | [`NodeRuntime`](node.md#noderuntime) |
-| `services` | [`NodeService`](node.md#nodeservice)[] |
-| `spec` | [`NodePackageSpecification`](nodeSpec.md#nodepackagespecification) |
-| `status` | [`NodeStatus`](../enums/node.NodeStatus.md) |
-| `stoppedBy?` | [`NodeStoppedBy`](../enums/node.NodeStoppedBy.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `config` | [`NodeConfig`](node.md#nodeconfig) | - |
+| `createdTimestampMs` | `number` | Timestamp the node was first created, UTC milliseconds |
+| `id` | [`NodeId`](node.md#nodeid) | - |
+| `lastStarted?` | `string` | - |
+| `lastStopped?` | `string` | - |
+| `nodes` | [`default`](node.md#default)[] | - |
+| `runtime` | [`NodeRuntime`](node.md#noderuntime) | - |
+| `services` | [`NodeService`](node.md#nodeservice)[] | - |
+| `spec` | [`NodePackageSpecification`](nodeSpec.md#nodepackagespecification) | - |
+| `status` | [`NodeStatus`](../enums/node.NodeStatus.md) | - |
+| `stoppedBy?` | [`NodeStoppedBy`](../enums/node.NodeStoppedBy.md) | - |
 
 #### Defined in
 
-[node.ts:86](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L86)
+[node.ts:90](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L90)
 
 ___
 
@@ -117,7 +119,7 @@ ___
 
 #### Defined in
 
-[node.ts:98](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L98)
+[node.ts:106](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L106)
 
 ___
 
@@ -141,7 +143,7 @@ ___
 
 #### Defined in
 
-[node.ts:52](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L52)
+[node.ts:52](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L52)
 
 ___
 
@@ -159,7 +161,7 @@ ___
 
 #### Defined in
 
-[node.ts:81](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L81)
+[node.ts:85](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L85)
 
 ___
 
@@ -176,7 +178,7 @@ ___
 
 #### Defined in
 
-[node.ts:100](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L100)
+[node.ts:108](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L108)
 
 ___
 
@@ -193,7 +195,7 @@ ___
 
 #### Defined in
 
-[node.ts:77](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L77)
+[node.ts:81](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L81)
 
 ___
 
@@ -203,20 +205,21 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `config` | [`NodeConfig`](node.md#nodeconfig) |
-| `id` | [`NodeId`](node.md#nodeid) |
-| `lastStarted?` | `string` |
-| `lastStopped?` | `string` |
-| `runtime` | [`NodeRuntime`](node.md#noderuntime) |
-| `spec` | [`NodeSpecification`](nodeSpec.md#nodespecification) |
-| `status` | [`NodeStatus`](../enums/node.NodeStatus.md) |
-| `stoppedBy?` | [`NodeStoppedBy`](../enums/node.NodeStoppedBy.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `config` | [`NodeConfig`](node.md#nodeconfig) | - |
+| `createdTimestampMs` | `number` | Timestamp the node was first created, UTC milliseconds |
+| `id` | [`NodeId`](node.md#nodeid) | - |
+| `lastStarted?` | `string` | - |
+| `lastStopped?` | `string` | - |
+| `runtime` | [`NodeRuntime`](node.md#noderuntime) | - |
+| `spec` | [`NodeSpecification`](nodeSpec.md#nodespecification) | - |
+| `status` | [`NodeStatus`](../enums/node.NodeStatus.md) | - |
+| `stoppedBy?` | [`NodeStoppedBy`](../enums/node.NodeStoppedBy.md) | - |
 
 #### Defined in
 
-[node.ts:66](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L66)
+[node.ts:66](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L66)
 
 ## Functions
 
@@ -239,7 +242,7 @@ ___
 
 #### Defined in
 
-[node.ts:125](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L125)
+[node.ts:133](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L133)
 
 ___
 
@@ -262,7 +265,33 @@ ___
 
 #### Defined in
 
-[node.ts:158](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L158)
+[node.ts:167](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L167)
+
+___
+
+### getContainerName
+
+▸ **getContainerName**(`node`): `string`
+
+This naming convention supports a user running two of the same nodes,
+while still being human-readable.
+Returns just the specId for backwards compatibility.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `node` | [`default`](node.md#default) |
+
+#### Returns
+
+`string`
+
+"node.spec.specId-node.createdTimestampMs"
+
+#### Defined in
+
+[node.ts:211](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L211)
 
 ___
 
@@ -282,7 +311,7 @@ ___
 
 #### Defined in
 
-[node.ts:115](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L115)
+[node.ts:123](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L123)
 
 ___
 
@@ -302,4 +331,4 @@ ___
 
 #### Defined in
 
-[node.ts:105](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L105)
+[node.ts:113](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L113)

@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[nodePackageConfig.ts:22](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodePackageConfig.ts#L22)
+[nodePackageConfig.ts:22](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodePackageConfig.ts#L22)

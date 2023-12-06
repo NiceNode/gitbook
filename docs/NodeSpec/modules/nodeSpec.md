@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[nodeSpec.ts:11](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L11)
+[nodeSpec.ts:11](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L11)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[nodeSpec.ts:19](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L19)
+[nodeSpec.ts:19](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L19)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[nodeSpec.ts:61](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L61)
+[nodeSpec.ts:61](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L61)
 
 ___
 
@@ -88,7 +88,7 @@ binary must end in .tar.gz or .zip
 
 #### Defined in
 
-[nodeSpec.ts:73](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L73)
+[nodeSpec.ts:73](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L73)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[nodeSpec.ts:32](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L32)
+[nodeSpec.ts:32](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L32)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[nodeSpec.ts:10](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L10)
+[nodeSpec.ts:10](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L10)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[nodeSpec.ts:84](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L84)
+[nodeSpec.ts:84](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L84)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-[nodeSpec.ts:123](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L123)
+[nodeSpec.ts:123](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L123)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-[nodeSpec.ts:114](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L114)
+[nodeSpec.ts:114](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L114)
 
 ___
 
@@ -182,7 +182,7 @@ ___
 
 #### Defined in
 
-[nodeSpec.ts:130](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L130)
+[nodeSpec.ts:130](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L130)
 
 ___
 
@@ -218,4 +218,4 @@ where the node's data will be stored
 
 #### Defined in
 
-[nodeSpec.ts:93](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeSpec.ts#L93)
+[nodeSpec.ts:93](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeSpec.ts#L93)

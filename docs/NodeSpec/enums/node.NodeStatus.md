@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[node.ts:15](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L15)
+[node.ts:15](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L15)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[node.ts:13](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L13)
+[node.ts:13](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L13)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[node.ts:17](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L17)
+[node.ts:17](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L17)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[node.ts:16](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L16)
+[node.ts:16](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L16)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[node.ts:29](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L29)
+[node.ts:29](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L29)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[node.ts:18](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L18)
+[node.ts:18](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L18)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[node.ts:25](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L25)
+[node.ts:25](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L25)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[node.ts:26](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L26)
+[node.ts:26](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L26)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[node.ts:27](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L27)
+[node.ts:27](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L27)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[node.ts:19](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L19)
+[node.ts:19](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L19)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[node.ts:14](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L14)
+[node.ts:14](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L14)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[node.ts:20](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L20)
+[node.ts:20](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L20)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-[node.ts:22](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L22)
+[node.ts:22](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L22)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-[node.ts:21](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L21)
+[node.ts:21](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L21)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-[node.ts:24](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L24)
+[node.ts:24](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L24)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[node.ts:23](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L23)
+[node.ts:23](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L23)
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 #### Defined in
 
-[node.ts:28](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L28)
+[node.ts:28](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L28)
 
 ___
 
@@ -205,4 +205,4 @@ ___
 
 #### Defined in
 
-[node.ts:30](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L30)
+[node.ts:30](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L30)

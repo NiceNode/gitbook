@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[rpcTranslation.ts:21](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/rpcTranslation.ts#L21)
+[rpcTranslation.ts:21](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/rpcTranslation.ts#L21)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[rpcTranslation.ts:3](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/rpcTranslation.ts#L3)
+[rpcTranslation.ts:3](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/rpcTranslation.ts#L3)
