@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[node.ts:36](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L36)
+[node.ts:36](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L36)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[node.ts:35](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L35)
+[node.ts:35](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L35)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[node.ts:34](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/node.ts#L34)
+[node.ts:34](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/node.ts#L34)

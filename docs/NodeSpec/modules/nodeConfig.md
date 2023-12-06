@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[nodeConfig.ts:58](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L58)
+[nodeConfig.ts:58](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L58)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:41](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L41)
+[nodeConfig.ts:41](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L41)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:39](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L39)
+[nodeConfig.ts:39](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L39)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:31](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L31)
+[nodeConfig.ts:31](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L31)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:60](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L60)
+[nodeConfig.ts:60](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L60)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:37](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L37)
+[nodeConfig.ts:37](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L37)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:59](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L59)
+[nodeConfig.ts:59](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L59)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:4](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L4)
+[nodeConfig.ts:4](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L4)
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:27](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L27)
+[nodeConfig.ts:27](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L27)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:23](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L23)
+[nodeConfig.ts:23](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L23)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:14](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L14)
+[nodeConfig.ts:14](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L14)
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:9](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L9)
+[nodeConfig.ts:9](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L9)
 
 ## Variables
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-[nodeConfig.ts:3](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L3)
+[nodeConfig.ts:3](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L3)
 
 ## Functions
 
@@ -237,4 +237,4 @@ using the dataDir key because the dataDir key is used for the docker volume moun
 
 #### Defined in
 
-[nodeConfig.ts:88](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/nodeConfig.ts#L88)
+[nodeConfig.ts:88](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/nodeConfig.ts#L88)

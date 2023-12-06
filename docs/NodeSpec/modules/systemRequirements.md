@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[systemRequirements.ts:1](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L1)
+[systemRequirements.ts:1](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/systemRequirements.ts#L1)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[systemRequirements.ts:23](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L23)
+[systemRequirements.ts:23](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/systemRequirements.ts#L23)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[systemRequirements.ts:15](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L15)
+[systemRequirements.ts:15](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/systemRequirements.ts#L15)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[systemRequirements.ts:5](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L5)
+[systemRequirements.ts:5](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/systemRequirements.ts#L5)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[systemRequirements.ts:9](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L9)
+[systemRequirements.ts:9](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/systemRequirements.ts#L9)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-[systemRequirements.ts:28](https://github.com/NiceNode/nice-node/blob/b73322de/src/common/systemRequirements.ts#L28)
+[systemRequirements.ts:28](https://github.com/NiceNode/nice-node/blob/96dd378b/src/common/systemRequirements.ts#L28)
