@@ -26,7 +26,9 @@ export default defineConfig({
       {
         // text: 'Examples',
         items: [
-          { text: 'Guides', link: '/guides/' },
+          { text: 'Guides', link: '/guides/', items: [{
+            text: 'Add a Node to NiceNode', link: '/guides/add-node'
+          }] },
           { text: 'Node Specifications', link: '/NodeSpec/' }
         ]
       }
