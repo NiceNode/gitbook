@@ -17,9 +17,9 @@ export default defineConfig({
     }, 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'Guides', link: '/guides/' },
-      { text: 'Node Specs', link: '/NodeSpec/' }
+      { text: 'Node Specs', link: '/NodeSpec/' },
+      { text: 'Website', link: 'https://nicenode.xyz' },
     ],
 
     sidebar: [
@@ -44,6 +44,18 @@ export default defineConfig({
       },
       { icon: 'x', link: 'https://x.com/NiceNodeApp' },
       { icon: 'youtube', link: 'https://www.youtube.com/@NiceNode' },
-    ]
-  }
+    ],
+    editLink: {
+      pattern: 'https://github.com/NiceNode/documentation/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
+    search: {
+      provider: 'local'
+    },
+    footer: {
+      message: 'Released under the MIT License',
+      copyright: 'Copyright © 2022-present NiceNode'
+    }
+  },
+  lastUpdated: true
 })
