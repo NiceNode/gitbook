@@ -1,5 +1,7 @@
 # Adding a new Node
 
+This is how you can add a new node into the source code of NiceNode so that users can add a new node.
+
 1. Copy a node package and service, respectively, like `ethereum` and `geth` under NodeSpecs and modify them
 
 2. In `src/library/nodeManager.ts` import and add the node package and all services like `ethererum` `geth` and other clients

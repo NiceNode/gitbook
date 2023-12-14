@@ -26,10 +26,12 @@ export default defineConfig({
       {
         // text: 'Examples',
         items: [
-          { text: 'Guides', link: '/guides/', items: [{
-            text: 'Add a Node to NiceNode', link: '/guides/add-node'
-          }] },
-          { text: 'Node Specifications', link: '/NodeSpec/' }
+          { text: 'Guides', link: '/guides/', items: [
+            {text: 'Add a Node to NiceNode', link: '/guides/add-node'},
+            {text: 'Uninstalling NiceNode', link: '/guides/uninstall-nicenode'},
+          ] },
+          { text: 'Node Specifications', link: '/NodeSpec/' },
+          {text: 'Known issues', link: '/known-issues'},
         ]
       }
     ],
