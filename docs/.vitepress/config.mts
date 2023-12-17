@@ -28,6 +28,7 @@ export default defineConfig({
         items: [
           { text: 'Guides', link: '/guides/', items: [
             {text: 'Add a Node to NiceNode', link: '/guides/add-node'},
+            {text: 'Storage location', link: '/guides/nicenode-storage'},
             {text: 'Uninstalling NiceNode', link: '/guides/uninstall-nicenode'},
           ] },
           { text: 'Node Specifications', link: '/NodeSpec/' },

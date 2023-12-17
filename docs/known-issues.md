@@ -17,3 +17,7 @@ Currently, there are some node and network options in NiceNode that do not work 
 | -------- | --------- | ---------- | ------------------- |
 | Arbitrum | Nitro     | All        | macOS               |
 | Ethereum | Prysm     | All        | macOS               |
+
+## Conflicts with Docker
+
+Podman provides the same utility as Docker. However, this means that having Docker installed and running may cause issues when using NiceNode by conflicting with Podman. There should not be any issues on Linux, but with Mac and Windows, it is recommended to stop Docker Desktop first before using NiceNode. Docker Desktop may need to be uninstalled if issues persist.
