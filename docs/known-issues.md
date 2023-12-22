@@ -17,6 +17,7 @@ Currently, there are some node and network options in NiceNode that do not work 
 | -------- | --------- | ---------- | ------------------- |
 | Arbitrum | Nitro     | All        | macOS               |
 | Ethereum | Prysm     | All        | macOS               |
+| Ethereum | Reth      | Testnets   | all                 |
 
 ## Conflicts with Docker
 
