@@ -4,9 +4,9 @@ This is how you can add a new node into the source code of NiceNode so that user
 
 1. Copy a node package and service, respectively, like `ethereum` and `geth` under NodeSpecs and modify them
 
-2. In `src/library/nodeManager.ts` import and add the node package and all services like `ethererum` `geth` and other clients
+2. In `src/main/nodeLibraryManager.ts` import and add the node package and all services like `ethererum` `geth` and other clients
 
-3. Add the node package to `nodeOptions` list in `src/renderer/Presentational/AddNode/AddNode.tsx`
+3. Add the node package to `nodeOptions` list in `src/renderer/Presentational/AddNode/AddNode.tsx`. The `info` field is a short tagline (maximum character length of 150 or tbd)
 
 4. (optional) Add icons for the node package and service to `src/renderer/assets/images/nodeIcons/index.tsx` square, png, and around 512x512 ideally
 
