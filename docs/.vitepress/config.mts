@@ -31,6 +31,7 @@ export default defineConfig({
             {text: 'Storage location', link: '/guides/nicenode-storage'},
             {text: 'Uninstalling NiceNode', link: '/guides/uninstall-nicenode'},
           ] },
+          { text: 'Using a Node\'s API', link: '/using-a-nodes-api' },
           { text: 'Node Specifications', link: '/NodeSpec/' },
           {text: 'Known issues', link: '/known-issues'},
         ]
