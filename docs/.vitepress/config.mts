@@ -61,5 +61,10 @@ export default defineConfig({
       copyright: 'Copyright © 2022-present NiceNode'
     }
   },
-  lastUpdated: true
+  lastUpdated: true,
+  // docs: https://vitepress.dev/reference/site-config#ignoredeadlinks
+  ignoreDeadLinks: [
+    // ignore all localhost links
+    /^https?:\/\/localhost/,
+  ]
 })
