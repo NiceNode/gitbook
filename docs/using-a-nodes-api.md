@@ -21,7 +21,17 @@ Determine the local IP address of the computer running NiceNode and the nodes. O
 | Windows (PowerShell) | `(Get-NetIPAddress -AddressFamily IPv4).IPAddress`      |
 | Windows (Command Prompt) | `ipconfig \| findstr /i "IPv4 Address"` (or `ipconfig` and manually search)     | 
 
-Typically, on home networks this will look something like `192.168.0.X` where X is between `0 and 255`. From there, in the endpoint, just replace `localhost` with the `IP address` such as `192.168.0.110`.
+Typically, on home networks this will look something like `192.168.0.X` where X is between `0 and 255`. 
+
+Next, you will need to modify the node settings to allow connections from your other computer by entering the IP Address of the computer FROM which you are accessing the node API, in a setting like in the screenshot (or from all other machines using a `*`). So the value for the setting would be `http://localhost,192.168.125.155` or you can try `*` or `"*"` for while testing if you are not concerned about security on the NiceNode computer.
+
+<img src="/img/accept_connections_setting.png">
+
+**HTTP and Websockets have separate settings typically**
+
+Also, make sure that the firewall on the NiceNode computer is not blocking incomimg connections on the port of the API. `ufw` is a common linux firewall tool.
+
+Lastly, in the API endpoint, just replace `localhost` with the `IP address` such as `192.168.0.110`.
 
 ## Accessing the API within a container
 NiceNode runs containers with Podman. If you are running your container with Podman, in the endpoint, just replace `localhost` with `host.internal.containers`
